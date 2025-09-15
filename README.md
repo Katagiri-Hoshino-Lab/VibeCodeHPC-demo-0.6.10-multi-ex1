@@ -9,11 +9,13 @@ This repository contains the implementation and optimization results of GEMM (Ge
 
 ## Current Performance Results
 
-| Version | Performance (GFLOPS) | Efficiency (%) | Block Size | Status |
-|---------|---------------------|----------------|------------|--------|
-| v1.0.0  | 1803.784           | 23.1%          | 16         | ✅ Completed |
-| v1.0.1  | 1888.538           | 24.21%         | 32         | ✅ Completed |
-| v1.2.0  | (pending)          | -              | 32         | 🏃 Running |
+| Version | Performance (GFLOPS) | Efficiency (%) | Key Optimization | Status |
+|---------|---------------------|----------------|------------------|--------|
+| v1.0.0  | 1803.784           | 23.10%         | Shared memory tiling | ✅ Valid |
+| v1.0.1  | 1888.538           | 24.21%         | Block size=32 | ✅ Valid |
+| v1.2.1  | 2185.222           | 28.02%         | Block 64x64 | ✅ Valid |
+| v1.3.0  | 5868.981           | 75.24%         | cuBLAS+Tensor Core | ⚠️ Invalid (要件違反) |
+| v1.4.0  | 3365.297           | 43.14%         | Double buffering | ✅ Valid (最高性能) |
 
 ## Project Structure
 ```
