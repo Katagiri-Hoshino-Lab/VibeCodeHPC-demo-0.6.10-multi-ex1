@@ -1,15 +1,16 @@
 # コンテキスト使用状況レポート
 
-生成日時: 2025-09-15 16:25:30
+生成日時: 2025-09-15 16:31:21
 
 ## サマリー
 
 | エージェント | 合計 [トークン] | 使用率 | Cache Read | Cache Create | Input | Output | 推定時間 |
 |-------------|----------------|--------|------------|--------------|-------|--------|----------|
-| 🟢 PG1.1 | 137,808 | 86.1% | 137,568 | 238 | 1 | 1 | 0.1h |
-| 🟢 SE1 | 103,168 | 64.5% | 102,961 | 206 | 0 | 1 | 0.6h |
-| 🟢 CD | 68,881 | 43.1% | 67,980 | 801 | 0 | 100 | 0.5h |
-| 🟢 PM | 41,683 | 26.1% | 40,722 | 544 | 5 | 412 | 0.5h |
+| 🟢 SE1 | 133,012 | 83.1% | 131,780 | 1,126 | 0 | 106 | 0.1h |
+| 🟢 CD | 100,498 | 62.8% | 99,200 | 1,171 | 0 | 127 | 0.3h |
+| 🟢 PM | 61,867 | 38.7% | 60,541 | 1,322 | 3 | 1 | 0.1h |
+| 🟢 PG1.1 | 46,741 | 29.2% | 46,473 | 225 | 3 | 40 | 0.3h |
+| 🟢 PG1.3 | 46,741 | 29.2% | 46,473 | 225 | 3 | 40 | 0.3h |
 
 ## Visualizations
 
@@ -22,6 +23,7 @@
 ### Individual Agent Details
 - CD: [Detail](context_usage_CD_detail.png) | [Count](context_usage_CD_count.png)
 - PG1.1: [Detail](context_usage_PG1.1_detail.png) | [Count](context_usage_PG1.1_count.png)
+- PG1.3: [Detail](context_usage_PG1.3_detail.png) | [Count](context_usage_PG1.3_count.png)
 - PM: [Detail](context_usage_PM_detail.png) | [Count](context_usage_PM_count.png)
 - SE1: [Detail](context_usage_SE1_detail.png) | [Count](context_usage_SE1_count.png)
 
@@ -42,4 +44,4 @@ python telemetry/context_usage_monitor.py --graph-type overview
 
 - Cache directory: `.cache/context_monitor/`
 - Total cache size: 0.0 MB
-- Cache files: 4
+- Cache files: 5
