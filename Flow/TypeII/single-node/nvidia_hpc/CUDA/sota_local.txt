@@ -1,4 +1,11 @@
-current_best: "5868.981 GFLOPS"
-achieved_by: "v1.3.0"
-timestamp: "2025-09-15 07:42:43 UTC"
-agent_id: "PG1.1"
+# cuBLAS使用のため無効
+# current_best: "5868.981 GFLOPS"
+# achieved_by: "v1.3.0" 
+# timestamp: "2025-09-15 07:42:43 UTC"
+# agent_id: "PG1.1"
+
+# 有効な自前実装の最高記録
+current_best: "3365.297 GFLOPS"
+achieved_by: "v1.4.0"
+timestamp: "2025-09-15 07:43:00 UTC"
+agent_id: "PG1.2"
