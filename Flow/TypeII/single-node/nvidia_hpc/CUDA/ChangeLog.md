@@ -7,6 +7,39 @@
 
 - 基本の型：`ChangeLog_format.md`に記載（およびPGによる追記の作法）
 
+### v1.3.0
+**変更点**: "cuBLAS + Tensor Core最適化実装"  
+**結果**: 理論性能の75.24%達成 `5868.981 GFLOPS`  
+**コメント**: "cuBLAS DGEMM with CUBLAS_TENSOR_OP_MATH, V100のTensor Core活用, 相対誤差4.35e-16で精度要件達成"  
+
+<details>
+
+- **生成時刻**: `2025-01-15T07:39:00Z`
+- [x] **compile**
+    - status: `warning`
+    - warnings: `1`
+    - log: `unused variable algo (line 298)`
+- [x] **job**
+    - id: `2080677`
+    - resource_group: `cx-small`
+    - start_time: `2025-01-15T07:40:20Z`
+    - end_time: `2025-01-15T07:40:32Z`
+    - runtime_sec: `12`
+    - status: `success`
+- [x] **test**
+    - status: `pass`
+    - performance: `5868.981`
+    - unit: `GFLOPS`
+    - accuracy: `4.35e-16`
+    - efficiency: `75.24%`
+- **params**:
+    - nodes: `1`
+    - gpus: `1`
+    - library: `cuBLAS`
+    - tensor_cores: `enabled`
+
+</details>
+
 ### v1.2.1
 **変更点**: "メモリアクセスエラー修正、ブロックサイズを64x64に調整"  
 **結果**: 理論性能の28.02%達成 `2185.222 GFLOPS`  
