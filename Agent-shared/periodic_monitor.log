@@ -1,0 +1,100 @@
+[2025-09-15T06:59:22Z] Periodic monitor started (PID: 153599, Project: GEMM_v0_6_10_multi_ex01)
+[2025-09-15T06:59:22Z] Monitoring sessions: GEMM_v0_6_10_multi_ex01_PM, GEMM_v0_6_10_multi_ex01_Workers1
+[2025-09-15T06:59:22Z] Config: UPDATE_INTERVAL_SEC=30s, MILESTONE_INTERVAL_MIN=30min, MAX_RUNTIME_MIN=4320min
+[2025-09-15T06:59:22Z] Using Python command: python3
+[2025-09-15T06:59:22Z] Starting update subprocess (interval: 30s)
+[2025-09-15T06:59:22Z] Checking milestones... Elapsed: 0 minutes
+❌ No JSONL files found for agents
+   Check: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/Agent-shared/agent_and_pane_id_table.jsonl
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+  - Processing PM...
+❌ No usage data found in JSONL files
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+[2025-09-15T07:04:35Z] SOTA pipeline starting (elapsed=5min)
+[2025-09-15T07:04:36Z] SOTA pipeline launched in background
+  local: 0 graphs in 0s
+  family: 0 graphs in 0s
+  hardware: 0 graphs in 0s
+  project: 0 graphs in 0s
+[16:04:36] Completed: 0 files in 0s
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+[2025-09-15T07:05:06Z] SOTA pipeline starting (elapsed=5min)
+[2025-09-15T07:05:06Z] SOTA pipeline launched in background
+  local: 0 graphs in 0s
+  family: 0 graphs in 0s
+  hardware: 0 graphs in 0s
+  project: 0 graphs in 0s
+[16:05:07] Completed: 0 files in 0s
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+グラフ保存完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/budget_usage.png
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
+✅ レポート生成完了: /mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/User-shared/visualizations/context_usage_report.md
+✅ Context usage monitoring complete
