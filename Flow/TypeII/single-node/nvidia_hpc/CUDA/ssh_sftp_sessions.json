@@ -1,0 +1,21 @@
+{
+  "last_updated": "2025-01-15T00:01:00Z",
+  "sessions": [
+    {
+      "type": "ssh",
+      "pid": 157397,
+      "host": "flow-cx.cc.nagoya-u.ac.jp",
+      "purpose": "main_commands",
+      "created": "2025-01-15T00:00:00Z",
+      "notes": "メインのコマンド実行用"
+    },
+    {
+      "type": "sftp",
+      "pid": 158631,
+      "host": "flow-cx.cc.nagoya-u.ac.jp",
+      "purpose": "file_transfer",
+      "created": "2025-01-15T00:01:00Z",
+      "notes": "ファイル転送専用"
+    }
+  ]
+}

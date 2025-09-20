@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-09-15T07-18-08Z",
+  "total_points": 0.0,
+  "job_count": 1,
+  "running_jobs": 1,
+  "timeline_points": 1,
+  "jobs": [
+    {
+      "version": "1.0.0",
+      "path": "/mnt/c/Users/meme/ClaudeCode/Multi/EX01/VibeCodeHPC-jp-0.6.10/Flow/TypeII/single-node/nvidia_hpc/CUDA/ChangeLog.md",
+      "job_id": "2080668",
+      "resource_group": "cx-small",
+      "start_time": "2025-01-15T07:17:34Z",
+      "end_time": "-",
+      "cancelled_time": null,
+      "runtime_sec": "-",
+      "status": "running"
+    }
+  ],
+  "timeline": [
+    [
+      "2025-09-15T06:59:20+00:00",
+      0.0
+    ]
+  ]
+}
