@@ -1,0 +1,66 @@
+Job started at: 2025-09-15T07:22:08Z
+Node: cx090
+Working directory: /data/group1/z42448z/VibeCodeHPC/GEMM/v0.6.10/multi/ex1
+Mon Sep 15 16:22:08 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 550.144.03             Driver Version: 550.144.03     CUDA Version: 12.4     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla V100-SXM2-32GB           On  |   00000000:3D:00.0 Off |                    0 |
+| N/A   28C    P0             42W /  300W |       1MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla V100-SXM2-32GB           On  |   00000000:3E:00.0 Off |                    0 |
+| N/A   26C    P0             38W /  300W |       1MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla V100-SXM2-32GB           On  |   00000000:B1:00.0 Off |                    0 |
+| N/A   25C    P0             41W /  300W |       1MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Tesla V100-SXM2-32GB           On  |   00000000:B2:00.0 Off |                    0 |
+| N/A   26C    P0             39W /  300W |       1MiB /  32768MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Running GEMM CUDA v1.0.1...
+# GEMM CUDA Implementation v1.0.1
+# Matrix dimensions: M=2048, N=2048, K=2048
+# Data type: double precision (64-bit)
+# Block size: 32 x 32 (tuned for V100)
+# Number of CUDA devices: 4
+# Using GPU: Tesla V100-SXM2-32GB
+# Compute capability: 7.0
+# Memory: 31.73 GB
+# SMs: 80
+# Grid dimensions: 64 x 64
+# Block dimensions: 32 x 32
+
+# Performance measurements:
+Trial 1: Time = 0.009130 sec, Performance = 1881.625 GFLOPS
+Trial 2: Time = 0.009076 sec, Performance = 1892.990 GFLOPS
+Trial 3: Time = 0.009085 sec, Performance = 1891.036 GFLOPS
+
+# Average performance over 3 trials:
+# Time = 0.009097 sec
+# Performance = 1888.538 GFLOPS
+
+# Computing reference on CPU...
+# CPU Time = 61.791223 sec, Performance = 0.278 GFLOPS
+# Relative error: 9.87e-17
+# Accuracy test: PASSED
+# Speedup: 6792.55x
+# Memory usage: 0.125 GB
+# Arithmetic intensity: 128.000 FLOPS/byte
+# Efficiency vs V100 peak (7800.0 GFLOPS): 24.21%
+Job ended at: 2025-09-15T07:23:11Z

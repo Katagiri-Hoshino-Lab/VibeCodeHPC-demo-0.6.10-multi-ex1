@@ -1,0 +1,4 @@
+Job started at: Fri Sep 19 15:49:02 JST 2025
+Running baseline GEMM...
+/data/group1/z42448z/VibeCodeHPC/GEMM/v0.6.10/multi/ex1post/baseline/.d0002082336: line 13:    56 Segmentation fault      ./gemm_base
+Job ended at: Fri Sep 19 15:49:02 JST 2025
